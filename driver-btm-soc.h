@@ -345,7 +345,7 @@ extern unsigned int PHY_MEM_NONCE2_JOBID_ADDRESS;
 #undef DEBUG_PRINT_T9_PLUS_PIC_HEART_INFO   // if defined, used to debug T9+ bug: pic heart cmd failed!
 #undef DEBUG_PIC_UPGRADE        // if defined, we will force to write PIC program data once!
 #undef DEBUG_KEEP_REBOOT_EVERY_ONE_HOUR     // if defined, keep reboot every one hour!!!  this is for R4 
-#undef DEBUG_NOT_CHECK_FAN_NUM      // if defined, we will ignore fan number checking, will keep run even without any fan!!!
+#def DEBUG_NOT_CHECK_FAN_NUM      // if defined, we will ignore fan number checking, will keep run even without any fan!!!
 #undef DEBUG_WITHOUT_FREQ_VOLTAGE_LIMIT // if defined, we will not limit freq according to voltage!
 
 #undef DEBUG_DOWN_VOLTAGE_TEST

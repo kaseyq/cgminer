@@ -3270,6 +3270,7 @@ void set_pic_iic_flash_addr_pointer(unsigned char chain, unsigned char addr_H, u
 
     void check_fan()
     {
+#ifdef DEBUG_NOT_CHECK_FAN_NUM
         int i=0, j=0;
         unsigned char fan_id = 0;
         unsigned int fan_speed;
@@ -3298,6 +3299,7 @@ void set_pic_iic_flash_addr_pointer(unsigned char chain, unsigned char addr_H, u
                 }
             }
         }
+#endif
     }
 
     void set_PWM(unsigned char pwm_percent)
